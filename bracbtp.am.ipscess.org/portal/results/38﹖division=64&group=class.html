@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>2025 - 03 - 1 Etapa - XXXVIII Camp Brasileiro IPSC - VIAMAO - IPSC - Results - ESS</title>
+
+    <link rel="stylesheet" href="../../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../../css/fontawesome-all.css" />
+    <link rel="stylesheet" href="../../css/datatables.min.css" />
+    <link rel="stylesheet" href="../../css/custom/ess.css" />
+
+
+            </head>
+    <body class="app">
+        <header class="app-header">
+            <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top" role="navigation">
+                <div class="container-fluid px-lg-4 px-md-3  px-xl-5">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="#navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!-- Brand -->
+                    <a class="navbar-brand p-0" href="../../login.html">
+                        <img src="../../img/logo-navbar.png" height="40" />
+                    </a>
+                </div>
+                            </div>
+        </nav>
+    </header>
+
+    
+    <div class="app-content">
+        <main class="container-fluid px-lg-4 px-md-3  px-xl-5">
+            <h1>2025 - 03 - 1 Etapa - XXXVIII Camp Brasileiro IPSC - VIAMAO - IPSC - Results</h1>
+    <div class="btn-group float-right mb-4" role="group" aria-label="Result Grouping">
+        <a href="38%EF%B9%96division=64&amp;group=overall.html" class="btn btn-secondary ">
+            Overall
+        </a>
+        <a href="38%EF%B9%96division=64&amp;group=category.html" class="btn btn-secondary ">
+            Category
+        </a>
+        <a href="38%EF%B9%96division=64&amp;group=class.html" class="btn btn-secondary active">
+            Class
+        </a>
+        <a href="38%EF%B9%96division=64&amp;group=stage.html" class="btn btn-secondary ">
+            Stage
+        </a>
+    </div>
+
+            <h3>PARATLETA Cadeirante - U</h3>
+        <table class="table table-sm table-responsive-sm">
+            <thead class="thead-dark">
+            <tr>
+                <th style="width: 16px">Place</th>
+                <th style="width: 16px">#</th>
+                <th>Shooter</th>
+                <th style="width: 100px">Category</th>
+                <th style="width: 80px">Class</th>
+                <th style="width: 80px">Factor</th>
+                <th style="width: 80px">Region</th>
+                                <th style="width: 100px">Total Score</th>
+                <th style="width: 80px">Score %</th>
+            </tr>
+            </thead>
+            <tbody>
+                            <tr>
+                    <td>1</td>
+                    <td>16</td>
+                    <td>CASAGRANDE, ALEXANDRE</td>
+                    <td></td>
+                    <td>U</td>
+                    <td>Minor</td>
+                    <td>BRA</td>
+                                        <td>1,330.4113</td>
+                    <td>100.00</td>
+                </tr>
+                            <tr>
+                    <td>2</td>
+                    <td>376</td>
+                    <td>FURTUNATO, ROBSON</td>
+                    <td></td>
+                    <td>U</td>
+                    <td>Minor</td>
+                    <td>BRA</td>
+                                        <td>586.4054</td>
+                    <td>44.08</td>
+                </tr>
+                            <tr>
+                    <td>3</td>
+                    <td>415</td>
+                    <td>FERREIRA, VALDEIR DE</td>
+                    <td></td>
+                    <td>U</td>
+                    <td>Minor</td>
+                    <td>BRA</td>
+                                        <td>99.7614</td>
+                    <td>7.50</td>
+                </tr>
+                        </tbody>
+        </table>
+            </main>
+    </div>
+
+    <footer class="app-footer">
+        <div class="container">
+            <hr />
+                    </div>
+    </footer>
+
+    <script src="../../js/jquery-3.3.1.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <script src="../../js/datatables.min.js"></script>
+
+    <script>
+        $.extend( true, $.fn.dataTable.defaults, {
+            layout: {
+                topStart: 'buttons',
+                topEnd: [
+                    'search',
+                    { buttons: [
+                        {
+                            extend: 'excelHtml5',
+                            title: 'ess-export',
+                            text:'<i class="fa fa-file-excel" title="Export to Excel"></i> XLSX'
+                        },
+                    ]}
+                ],
+                bottom: ['pageLength', 'info', 'paging'],
+                bottomStart: null,
+                bottomEnd: null,
+            },
+            lengthMenu: [[10, 25, 50, -1], [10, 25, 50, "All"]],
+            pageLength: 25,
+            buttons: ['export']
+        } );
+    </script>
+
+    </body>
+</html>
